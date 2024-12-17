@@ -1,0 +1,20 @@
+{
+  "name": "mindi-advent-of-code",
+  "version": "1.0.0",
+  "scripts": {
+    "format": "prettier --check \"src/**/*.ts\"",
+    "format:fix": "prettier --write \"src/**/*.ts\"",
+    "lint": "eslint \"src/**/*.ts\"",
+    "test": "mocha --require tsx \"src/**/*.test.ts\""
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.10.1",
+    "eslint": "^9.16.0",
+    "mocha": "^10.8.2",
+    "prettier": "^3.4.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "typescript-eslint": "^8.17.0"
+  }
+}
